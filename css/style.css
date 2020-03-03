@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Roboto-regular;
+    src: url('../files/fonts/roboto/Roboto-Regular.ttf');
+  }
+@font-face {
+    font-family: OpenSans-regular;
+    src: url('../files/fonts/openSans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: OpenSans-bold;
+    src: url('../files/fonts/openSans/OpenSans-Bold.ttf');
+}
+  
+body,html{
+    background-color: #222222;
+    color:#eeeeee;
+    height:100%;
+    -ms-overflow-style:none;
+    scrollbar-width:none;
+    width:90%;
+    margin:0 auto;
+    font-family: OpenSans-regular, Roboto-regular, Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+/* titulo e links */
+header{
+    margin-top: 144px;
+}
+header #titulo{
+    
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+header #menu{
+    float: right;
+    
+}
+header #links{
+    
+    margin-top: -75px;
+}
+header #links ul{
+    
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+}
+header #links ul li{
+    padding-left: 20px ;
+}
+header a:link {
+    color: #eeeeee;
+    text-decoration: none;
+}
+/* visited link */
+header a:visited {
+    color: #eeeeee;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+header a:hover {
+    color: #8B46E2;
+  }
+  
+  /* selected link */
+header a:active {
+    color: #eeeeee;
+    text-decoration: none;
+  }
+header #redes{
+    float: right;
+    margin-top: -30px;
+}
+header #redes ul{
+ 
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+}
+header #redes ul li{
+    padding-left: 20px ;
+}
+header #redes ul li svg:hover{
+   color: #8B46E2;
+}
+/* rodape */
+footer{
+    font-size: 12px;
+   
+}
+footer #linha{
+    width: 50px;
+    border-bottom:2px dashed #8B46E2;
+}
+footer a{
+    font-family: OpenSans-bold ;
+    color:#8B46E2;
+    text-decoration: none;
+}
